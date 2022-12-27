@@ -1,0 +1,53 @@
+.displayBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    padding: 0 0 0 10vw;
+    background-color: yellowgreen;
+    height: autoo;
+}
+
+form {
+    margin: 0 0 5vh 30vw;
+    padding: 5vh 0 0 0;
+}
+
+input[type=text]{
+    padding: 5px;
+    width: 30vw;
+}
+form p{
+    color: blue;
+    margin: 0 0 5vh 10vw;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+form button{
+    padding: 5px;
+    font-weight: bolder;
+    color: red;
+}
+/* displey section is here */
+.card {
+    background-color: white;
+    height: 37vh;
+    width: 20vw;
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1px;
+    text-decoration: none;
+}
+.card p{
+    color: black;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card img {
+    border: 1px solid black;
+    height: 20vh;
+    width: 20vw;
+}
